@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Image, ScrollView, Text } from 'react-native';
 import { TextInput, Button } from 'react-native-paper';
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
@@ -44,28 +44,46 @@ const SignUpScreen = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
+      <Image
+        source={require('../../assets/LoginSignup/SignUp.png')}
+        style={styles.logo}
+        resizeMode="contain"
+      />
+      <Text style={styles.signupText}>SIGNUP</Text>
       <TextInput
         label="Name"
         value={name}
         onChangeText={(text) => setName(text)}
+        style={styles.input}
+        theme={{ colors: { primary: 'blue' } }} // Set input color to blue
+        underlineColor="transparent" // Remove the underline
       />
       <TextInput
         label="Email"
         value={email}
         onChangeText={(text) => setEmail(text)}
+        style={styles.input}
+        theme={{ colors: { primary: 'blue' } }} // Set input color to blue
+        underlineColor="transparent" // Remove the underline
       />
       <TextInput
         label="Password"
         secureTextEntry
         value={password}
         onChangeText={(text) => setPassword(text)}
+        style={styles.input}
+        theme={{ colors: { primary: 'blue' } }} // Set input color to blue
+        underlineColor="transparent" // Remove the underline
       />
       <TextInput
         label="Retype Password"
         secureTextEntry
         value={retypePassword}
         onChangeText={(text) => setRetypePassword(text)}
+        style={styles.input}
+        theme={{ colors: { primary: 'blue' } }} // Set input color to blue
+        underlineColor="transparent" // Remove the underline
       />
       <Button
         mode="contained"
@@ -75,18 +93,37 @@ const SignUpScreen = ({ navigation }) => {
         Signup
       </Button>
       <Button onPress={navigateToLogin}>Already have an account? Log In</Button>
-    </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
     padding: 16,
+    backgroundColor: 'white',
+  },
+  logo: {
+    height: 300,
+    marginBottom: 0,
+    alignSelf: 'center',
+  },
+  signupText: {
+    textAlign: 'center',
+    fontSize: 26,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    marginTop:-15,
+    color: 'black',
+  },
+  input: {
+    marginBottom: 10,
+    borderRadius: 10, // Set border radius for rounded corners
   },
   button: {
     marginTop: 16,
+    borderRadius: 10, // Set border radius for rounded corners
   },
 });
 
