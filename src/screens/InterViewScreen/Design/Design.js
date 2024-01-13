@@ -40,7 +40,7 @@ const Design = ({navigation}) => {
         <Image
           source={require('../../../assets/InterView/Design-vector.png')}
           style={styles.image}
-          />
+          /> 
         <Text style={styles.description}>
           Revolutionize your design role interviews with our avant-garde AI
           interview app! Merge insightful general questions, creative projects,
