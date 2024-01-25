@@ -12,8 +12,8 @@ const HomeScreen = () => {
       <ScrollView>
         <View style={styles.container}>
           <View>
-            <Text style={styles.text}>Hello....</Text>
-            <Text style={styles.name}>Name To Be Here</Text>
+            <Text style={styles.text}>Hi Welcome</Text>
+            <Text style={styles.name}>Kisan</Text>
           </View>
           <Image
             style={styles.rightAlignedImage}

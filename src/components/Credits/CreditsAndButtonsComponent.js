@@ -22,18 +22,15 @@ const CreditsAndButtonsComponent = () => {
         <View style={styles.buttonsContainer}>
           <View style={styles.buttonRow}>
             <TouchableOpacity style={styles.button}>
-              <Text style={styles.buttonText}>Name1</Text>
+              <Text style={styles.buttonText}>Hemanth Kumar</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-              <Text style={styles.buttonText}>Name2</Text>
+              <Text style={styles.buttonText}>Joel Binu</Text>
             </TouchableOpacity>
           </View>
           <View style={styles.buttonRow}>
             <TouchableOpacity style={styles.button}>
-              <Text style={styles.buttonText}>Name3</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-              <Text style={styles.buttonText}>Name4</Text>
+              <Text style={styles.buttonText}>Karthik Sagar</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -59,7 +56,7 @@ const styles = StyleSheet.create({
   madeWithCare: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: '#3498db', // Light blue color
+    color: '#38B75B', // Light blue color
   },
   codedWithLove: {
     fontSize: 16,
@@ -79,15 +76,15 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
-    backgroundColor: 'rgba(52, 152, 219, 0.8)', // Blue color with some transparency
+    backgroundColor: 'rgba(219, 254, 206, 0.8)', // Blue color with some transparency
     paddingVertical: 10,
     paddingHorizontal: 20,
     marginHorizontal: 8,
     borderRadius: 8,
   },
   buttonText: {
-    color: 'white',
-    fontWeight: 'bold',
+    color: 'black',
+
     textAlign: 'center',
   },
 });

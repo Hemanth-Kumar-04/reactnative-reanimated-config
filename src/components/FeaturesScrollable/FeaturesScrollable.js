@@ -7,7 +7,6 @@ import Report from '../../assets/HomeScreen/report.png'
 const YourComponent = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Cards</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {/* Card 1 */}
         <LinearGradient
@@ -16,8 +15,8 @@ const YourComponent = () => {
           end={{x: 1, y: 0.5}}
           style={styles.card}>
           <View>
-            <Text style={styles.cardDescription}>Description for Card 3</Text>
-            <Text style={styles.cardTitle}>Card 3</Text>
+            <Text style={styles.cardDescription}></Text>
+            <Text style={styles.cardTitle}>Govt Schem</Text>
           </View>
           <Image source={Report} style={styles.newsImage} />
         </LinearGradient>

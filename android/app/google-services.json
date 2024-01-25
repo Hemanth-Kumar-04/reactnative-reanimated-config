@@ -1,22 +1,21 @@
 {
   "project_info": {
-    "project_number": "807718658302",
-    "firebase_url": "https://destinx-c4de9-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "destinx-c4de9",
-    "storage_bucket": "destinx-c4de9.appspot.com"
+    "project_number": "21243870617",
+    "project_id": "farm-dost-65c4d",
+    "storage_bucket": "farm-dost-65c4d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:807718658302:android:8e2fe958d6825fcc9a05af",
+        "mobilesdk_app_id": "1:21243870617:android:34690b2b7c9c73e59b2708",
         "android_client_info": {
-          "package_name": "com.awesomeprj"
+          "package_name": "com.hackapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDNk4Jr1en1XrriNK-5RuJ91R1LTBtbzPg"
+          "current_key": "AIzaSyA8ZPEyPeDn5sBEVnoo7AOtnDxfcNvsgkw"
         }
       ],
       "services": {
@@ -27,26 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:807718658302:android:3fd382eb72d21c3f9a05af",
-        "android_client_info": {
-          "package_name": "com.example.destin"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDNk4Jr1en1XrriNK-5RuJ91R1LTBtbzPg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:807718658302:android:beca541f533a888e9a05af",
+        "mobilesdk_app_id": "1:21243870617:android:d0974f16073c1e379b2708",
         "android_client_info": {
           "package_name": "com.testreactnative"
         }
@@ -54,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDNk4Jr1en1XrriNK-5RuJ91R1LTBtbzPg"
+          "current_key": "AIzaSyA8ZPEyPeDn5sBEVnoo7AOtnDxfcNvsgkw"
         }
       ],
       "services": {

@@ -9,13 +9,13 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   text: {
-    fontSize: 18,
+    fontSize: 23,
     color: 'black', // Set text color to black
     fontWeight: 'bold', // Make text bold
     marginRight: 8, // Add some right margin to separate text and image
   },
   name: {
-    fontSize: 25,
+    fontSize: 27,
     color: 'black', // Set text color to black
     fontWeight: 'bold', // Make text bold
     marginRight: 8, // Add some right margin to separate text and image
